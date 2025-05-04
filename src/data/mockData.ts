@@ -341,7 +341,7 @@ export const marks: Mark[] = [
     classTests: [7, 6, 6],
     presentations: [17, 20],
     classPerformance: 7,
-    midterm: 15,
+    midterm: 22,
     finalExam: 37
   },
   {
@@ -350,7 +350,7 @@ export const marks: Mark[] = [
     classTests: [10, 6, 6],
     presentations: [18, 15],
     classPerformance: 10,
-    midterm: 14,
+    midterm: 24,
     finalExam: 43
   },
   {
@@ -359,7 +359,7 @@ export const marks: Mark[] = [
     classTests: [6, 9, 10],
     presentations: [15, 18],
     classPerformance: 7,
-    midterm: 11,
+    midterm: 21,
     finalExam: 44
   },
   {
@@ -368,7 +368,7 @@ export const marks: Mark[] = [
     classTests: [10, 9, 8],
     presentations: [14, 18],
     classPerformance: 7,
-    midterm: 13,
+    midterm: 30,
     finalExam: 45
   },
   {
@@ -377,7 +377,7 @@ export const marks: Mark[] = [
     classTests: [10, 6, 10],
     presentations: [17, 15],
     classPerformance: 10,
-    midterm: 12,
+    midterm: 32,
     finalExam: 44
   }
 ];

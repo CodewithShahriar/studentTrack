@@ -78,7 +78,7 @@ const AdminDashboard: React.FC = () => {
             <Calendar size={20} className="text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">85%</div>
+            <div className="text-2xl font-bold">75%</div>
             <p className="text-xs text-muted-foreground mt-1">
               Overall attendance rate
             </p>
@@ -93,7 +93,7 @@ const AdminDashboard: React.FC = () => {
             <Award size={20} className="text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">2</div>
+            <div className="text-2xl font-bold">9</div>
             <p className="text-xs text-muted-foreground mt-1">
               Students with A+ grade
             </p>
