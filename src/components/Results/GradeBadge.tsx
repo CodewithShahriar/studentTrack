@@ -10,10 +10,14 @@ interface GradeBadgeProps {
 const GradeBadge: React.FC<GradeBadgeProps> = ({ grade, totalMarks }) => {
   const getGradeClass = (grade: string): string => {
     switch(grade) {
+      case 'A+': return 'grade-a+';
       case 'A': return 'grade-a';
+      case 'A-': return 'grade-a-';
+      case 'B+': return 'grade-b+';
       case 'B': return 'grade-b';
+      case 'B-': return 'grade-b-';
+      case 'C+': return 'grade-c+';
       case 'C': return 'grade-c';
-      case 'D': return 'grade-d';
       default: return 'grade-f';
     }
   };

@@ -95,7 +95,7 @@ const AdminDashboard: React.FC = () => {
           <CardContent>
             <div className="text-2xl font-bold">2</div>
             <p className="text-xs text-muted-foreground mt-1">
-              Students with A grade
+              Students with A+ grade
             </p>
           </CardContent>
         </Card>
