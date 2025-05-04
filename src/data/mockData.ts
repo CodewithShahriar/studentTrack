@@ -94,14 +94,14 @@ export const students: Student[] = [
   { id: "232-115-028", name: "Fahima Akter", email: "fahima028@example.com", program: "Computer Science and Engineering", semester: 4, enrollmentDate: "2023-09-01" },
   { id: "232-115-030", name: "Sukta Rani Chandra", email: "sukta030@example.com", program: "Computer Science and Engineering", semester: 4, enrollmentDate: "2023-09-01" },
   { id: "232-115-031", name: "Nadia Muntaha", email: "nadia031@example.com", program: "Computer Science and Engineering", semester: 4, enrollmentDate: "2023-09-01" },
-  { id: "232-115-032", name: "Shamsun Naher", email: "naher032@example.com", program: "Computer Science and Engineering", semester: 4, enrollmentDate: "2023-09-01" },
+  { id: "232-115-032", name: "Shamsun Naher", email: "jisa032@example.com", program: "Computer Science and Engineering", semester: 4, enrollmentDate: "2023-09-01" },
   { id: "232-115-033", name: "Arshika Noor", email: "arshika033@example.com", program: "Computer Science and Engineering", semester: 4, enrollmentDate: "2023-09-01" },
   { id: "232-115-034", name: "Anij Fatema Lisa", email: "lisa034@example.com", program: "Computer Science and Engineering", semester: 4, enrollmentDate: "2023-09-01" },
   { id: "232-115-035", name: "Samiha Jannah Najah", email: "samiha035@example.com", program: "Computer Science and Engineering", semester: 4, enrollmentDate: "2023-09-01" },
   { id: "232-115-036", name: "Mahbuba Khanom Mumu", email: "mumu036@example.com", program: "Computer Science and Engineering", semester: 4, enrollmentDate: "2023-09-01" },
   { id: "232-115-038", name: "Sumaya Akther Rose", email: "sumaya038@example.com", program: "Computer Science and Engineering", semester: 4, enrollmentDate: "2023-09-01" },
   { id: "232-115-039", name: "Sadia Sharmin Tumpa", email: "tumpa039@example.com", program: "Computer Science and Engineering", semester: 4, enrollmentDate: "2023-09-01" },
-  { id: "232-115-040", name: "Jannatul Fardous", email: "fardous040@example.com", program: "Computer Science and Engineering", semester: 4, enrollmentDate: "2023-09-01" }
+  { id: "232-115-040", name: "Jannatul Fardous", email: "jannat040@example.com", program: "Computer Science and Engineering", semester: 4, enrollmentDate: "2023-09-01" }
 ];
 
 
