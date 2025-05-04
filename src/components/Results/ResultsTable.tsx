@@ -34,10 +34,12 @@ const ResultsTable: React.FC = () => {
     setEditedMarks({
       classTests: [...mark.classTests],
       presentations: [...mark.presentations],
-      classPerformance: mark.classPerformance,
-      midterm: mark.midterm,
+      attendance: mark.attendance,
+      assignment: mark.assignment,
+      quiz: mark.quiz,
       finalExam: mark.finalExam
     });
+    
   };
   
   const handleMarkChange = (field: string, value: string | number, index?: number) => {
