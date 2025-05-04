@@ -265,7 +265,7 @@ const StudentDashboard: React.FC = () => {
                 Last updated: May 3, 2025
               </p>
               <p className="text-sm text-muted-foreground">
-                All marks displayed as entered by your instructors
+              If you have any issues with your marks, please contact your CR
               </p>
             </CardFooter>
           </Card>
