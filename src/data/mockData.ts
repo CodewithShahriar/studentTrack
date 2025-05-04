@@ -33,14 +33,12 @@ export interface Course {
 export interface Mark {
   studentId: string;
   courseId: string;
-  classTests: number[];      // Only two values, highest one will be used
-  presentations: number[];   // Usually just one value now
-  attendance: number;        // New field (out of 10)
-  assignment: number;        // Replaces classPerformance
-  quiz: number;              // Replaces midterm
-  finalExam: number;         // Kept as is (out of 40)
+  classTests: number[];
+  presentations: number[];
+  classPerformance: number;
+  midterm: number;
+  finalExam: number;
 }
-
 
 // Mock users for authentication
 export const users: User[] = [
@@ -385,30 +383,45 @@ export const marks: Mark[] = [
 ];
 
 // Helper function to calculate student's attendance rate
-// Updated grade calculation
+export const calculateAttendanceRate = (studentId: string, courseId: string): number => {
+  const studentAttendance = attendance.filter(
+    a => a.studentId === studentId && a.courseId === courseId
+  );
+  
+  if (studentAttendance.length === 0) return 0;
+  
+  const totalClasses = studentAttendance.length;
+  const presentClasses = studentAttendance.filter(a => a.status === "present" || a.status === "late").length;
+  
+  return (presentClasses / totalClasses) * 100;
+};
+
+// Helper function to calculate student's total grade
 export const calculateTotalGrade = (mark: Mark): { totalMarks: number; grade: string } => {
-  const highestClassTest = Math.max(...mark.classTests); // Only highest
-  const presentationAvg = mark.presentations.reduce((sum, p) => sum + p, 0) / mark.presentations.length;
+  const classTestAverage = mark.classTests.reduce((sum, mark) => sum + mark, 0) / mark.classTests.length;
 
+  // Use presentation as a single value (first one)
+  const presentation = mark.presentations[0];
+
+  // Use values directly for other components
   const totalMarks =
-    highestClassTest +             // out of 10
-    presentationAvg +             // out of 10
-    mark.attendance +             // out of 10
-    mark.assignment +             // out of 10
-    mark.quiz +                   // out of 10
-    mark.finalExam;               // out of 40
+    classTestAverage + // Average of class tests
+    mark.classPerformance + // Class performance
+    presentation + // Presentation
+    mark.midterm + // Midterm
+    mark.finalExam; // Final Exam
 
-  const percentage = totalMarks;
-
+  // Grade calculation based on totalMarks
   let grade;
-  if (percentage >= 90) grade = 'A';
-  else if (percentage >= 80) grade = 'B';
-  else if (percentage >= 70) grade = 'C';
-  else if (percentage >= 60) grade = 'D';
+  if (totalMarks >= 90) grade = 'A';
+  else if (totalMarks >= 80) grade = 'B';
+  else if (totalMarks >= 70) grade = 'C';
+  else if (totalMarks >= 60) grade = 'D';
   else grade = 'F';
 
   return { totalMarks, grade };
 };
+
 
 // Helper function to get student marks by ID
 export const getStudentMarks = (studentId: string): Mark[] => {
