@@ -33,12 +33,14 @@ export interface Course {
 export interface Mark {
   studentId: string;
   courseId: string;
-  classTests: number[];
-  presentations: number[];
-  classPerformance: number;
-  midterm: number;
-  finalExam: number;
+  classTests: number[];      // Only two values, highest one will be used
+  presentations: number[];   // Usually just one value now
+  attendance: number;        // New field (out of 10)
+  assignment: number;        // Replaces classPerformance
+  quiz: number;              // Replaces midterm
+  finalExam: number;         // Kept as is (out of 40)
 }
+
 
 // Mock users for authentication
 export const users: User[] = [
@@ -383,42 +385,28 @@ export const marks: Mark[] = [
 ];
 
 // Helper function to calculate student's attendance rate
-export const calculateAttendanceRate = (studentId: string, courseId: string): number => {
-  const studentAttendance = attendance.filter(
-    a => a.studentId === studentId && a.courseId === courseId
-  );
-  
-  if (studentAttendance.length === 0) return 0;
-  
-  const totalClasses = studentAttendance.length;
-  const presentClasses = studentAttendance.filter(a => a.status === "present" || a.status === "late").length;
-  
-  return (presentClasses / totalClasses) * 100;
-};
-
-// Helper function to calculate student's total grade
+// Updated grade calculation
 export const calculateTotalGrade = (mark: Mark): { totalMarks: number; grade: string } => {
-  const classTestTotal = mark.classTests.reduce((sum, mark) => sum + mark, 0);
-  const presentationsTotal = mark.presentations.reduce((sum, mark) => sum + mark, 0);
-  
-  // Assuming: class tests (10% each), presentations (10% each), class performance (10%), midterm (20%), final (40%)
-  const totalMarks = 
-    (classTestTotal / mark.classTests.length) + // Average of class tests (out of 10)
-    (presentationsTotal / mark.presentations.length) + // Average of presentations (out of 10)
-    mark.classPerformance + // Class performance (out of 10)
-    (mark.midterm * 2) / 10 + // Midterm converted to out of 10
-    (mark.finalExam * 4) / 10; // Final exam converted to out of 10
-    
-  // Grade calculation based on percentage
-  const percentage = (totalMarks / 10) * 100;
-  
+  const highestClassTest = Math.max(...mark.classTests); // Only highest
+  const presentationAvg = mark.presentations.reduce((sum, p) => sum + p, 0) / mark.presentations.length;
+
+  const totalMarks =
+    highestClassTest +             // out of 10
+    presentationAvg +             // out of 10
+    mark.attendance +             // out of 10
+    mark.assignment +             // out of 10
+    mark.quiz +                   // out of 10
+    mark.finalExam;               // out of 40
+
+  const percentage = totalMarks;
+
   let grade;
   if (percentage >= 90) grade = 'A';
   else if (percentage >= 80) grade = 'B';
   else if (percentage >= 70) grade = 'C';
   else if (percentage >= 60) grade = 'D';
   else grade = 'F';
-  
+
   return { totalMarks, grade };
 };
 
