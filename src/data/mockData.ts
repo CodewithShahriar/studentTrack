@@ -154,233 +154,7 @@ export const attendance: AttendanceRecord[] = [
 ];
 
 // Mock marks data
-export const marks: Mark[] = [
-  {
-    studentId: "232-115-005",
-    courseId: "CSE200",
-    classTests: [7, 8, 9],
-    presentations: [20, 17],
-    classPerformance: 10,
-    midterm: 15,
-    finalExam: 38
-  },
-  {
-    studentId: "232-115-005",
-    courseId: "MAT216",
-    classTests: [9, 10, 7],
-    presentations: [15, 18],
-    classPerformance: 9,
-    midterm: 10,
-    finalExam: 50
-  },
-  {
-    studentId: "232-115-005",
-    courseId: "CSE231",
-    classTests: [9, 8, 9],
-    presentations: [15, 20],
-    classPerformance: 7,
-    midterm: 12,
-    finalExam: 49
-  },
-  {
-    studentId: "232-115-005",
-    courseId: "CSE211",
-    classTests: [7, 7, 10],
-    presentations: [15, 16],
-    classPerformance: 8,
-    midterm: 12,
-    finalExam: 44
-  },
-  {
-    studentId: "232-115-005",
-    courseId: "GED431",
-    classTests: [9, 8, 7],
-    presentations: [16, 17],
-    classPerformance: 8,
-    midterm: 15,
-    finalExam: 42
-  },
-  {
-    studentId: "232-115-006",
-    courseId: "CSE200",
-    classTests: [6, 9, 10],
-    presentations: [20, 20],
-    classPerformance: 10,
-    midterm: 11,
-    finalExam: 48
-  },
-  {
-    studentId: "232-115-006",
-    courseId: "MAT216",
-    classTests: [7, 9, 9],
-    presentations: [17, 19],
-    classPerformance: 9,
-    midterm: 12,
-    finalExam: 46
-  },
-  {
-    studentId: "232-115-006",
-    courseId: "CSE231",
-    classTests: [6, 8, 8],
-    presentations: [20, 16],
-    classPerformance: 8,
-    midterm: 14,
-    finalExam: 44
-  },
-  {
-    studentId: "232-115-006",
-    courseId: "CSE211",
-    classTests: [10, 7, 7],
-    presentations: [19, 19],
-    classPerformance: 9,
-    midterm: 15,
-    finalExam: 47
-  },
-  {
-    studentId: "232-115-006",
-    courseId: "GED431",
-    classTests: [6, 8, 8],
-    presentations: [14, 14],
-    classPerformance: 9,
-    midterm: 14,
-    finalExam: 38
-  },
-  {
-    studentId: "232-115-008",
-    courseId: "CSE200",
-    classTests: [6, 6, 6],
-    presentations: [14, 19],
-    classPerformance: 8,
-    midterm: 2,
-    finalExam: 36
-  },
-  {
-    studentId: "232-115-008",
-    courseId: "MAT216",
-    classTests: [9, 10, 9],
-    presentations: [18, 14],
-    classPerformance: 8,
-    midterm: 3,
-    finalExam: 47
-  },
-  {
-    studentId: "232-115-008",
-    courseId: "CSE231",
-    classTests: [8, 9, 6],
-    presentations: [18, 14],
-    classPerformance: 7,
-    midterm: 11,
-    finalExam: 48
-  },
-  {
-    studentId: "232-115-008",
-    courseId: "CSE211",
-    classTests: [6, 6, 6],
-    presentations: [20, 17],
-    classPerformance: 10,
-    midterm: 5,
-    finalExam: 35
-  },
-  {
-    studentId: "232-115-008",
-    courseId: "GED431",
-    classTests: [10, 10, 9],
-    presentations: [19, 15],
-    classPerformance: 9,
-    midterm: 3,
-    finalExam: 40
-  },
-  {
-    studentId: "232-115-009",
-    courseId: "CSE200",
-    classTests: [10, 7, 8],
-    presentations: [20, 15],
-    classPerformance: 10,
-    midterm: 4,
-    finalExam: 40
-  },
-  {
-    studentId: "232-115-009",
-    courseId: "MAT216",
-    classTests: [9, 10, 9],
-    presentations: [17, 17],
-    classPerformance: 7,
-    midterm: 1,
-    finalExam: 36
-  },
-  {
-    studentId: "232-115-009",
-    courseId: "CSE231",
-    classTests: [9, 9, 9],
-    presentations: [18, 20],
-    classPerformance: 8,
-    midterm: 0,
-    finalExam: 43
-  },
-  {
-    studentId: "232-115-009",
-    courseId: "CSE211",
-    classTests: [9, 9, 6],
-    presentations: [15, 20],
-    classPerformance: 9,
-    midterm: 4,
-    finalExam: 35
-  },
-  {
-    studentId: "232-115-009",
-    courseId: "GED431",
-    classTests: [9, 7, 6],
-    presentations: [16, 15],
-    classPerformance: 8,
-    midterm: 4,
-    finalExam: 35
-  },
-  {
-    studentId: "232-115-011",
-    courseId: "CSE200",
-    classTests: [7, 6, 6],
-    presentations: [17, 20],
-    classPerformance: 7,
-    midterm: 22,
-    finalExam: 37
-  },
-  {
-    studentId: "232-115-011",
-    courseId: "MAT216",
-    classTests: [10, 6, 6],
-    presentations: [18, 15],
-    classPerformance: 10,
-    midterm: 24,
-    finalExam: 43
-  },
-  {
-    studentId: "232-115-011",
-    courseId: "CSE231",
-    classTests: [6, 9, 10],
-    presentations: [15, 18],
-    classPerformance: 7,
-    midterm: 21,
-    finalExam: 44
-  },
-  {
-    studentId: "232-115-011",
-    courseId: "CSE211",
-    classTests: [10, 9, 8],
-    presentations: [14, 18],
-    classPerformance: 7,
-    midterm: 30,
-    finalExam: 45
-  },
-  {
-    studentId: "232-115-011",
-    courseId: "GED431",
-    classTests: [10, 6, 10],
-    presentations: [17, 15],
-    classPerformance: 10,
-    midterm: 32,
-    finalExam: 44
-  }
-];
+
 
 // Helper function to calculate student's attendance rate
 export const calculateAttendanceRate = (studentId: string, courseId: string): number => {
@@ -427,3 +201,1850 @@ export const calculateTotalGrade = (mark: Mark): { totalMarks: number; grade: st
 export const getStudentMarks = (studentId: string): Mark[] => {
   return marks.filter(mark => mark.studentId === studentId);
 };
+
+
+
+
+ 
+export const marks: Mark[] = [
+  {
+    "studentId": "232-115-001",
+    "courseId": "CSE200",
+    "classTests": [
+      7,
+      10,
+      9
+    ],
+    "presentations": [
+      15,
+      16
+    ],
+    "classPerformance": 7,
+    "midterm": 24,
+    "finalExam": 50
+  },
+  {
+    "studentId": "232-115-001",
+    "courseId": "MAT216",
+    "classTests": [
+      6,
+      8,
+      10
+    ],
+    "presentations": [
+      20,
+      18
+    ],
+    "classPerformance": 8,
+    "midterm": 20,
+    "finalExam": 42
+  },
+  {
+    "studentId": "232-115-001",
+    "courseId": "CSE231",
+    "classTests": [
+      8,
+      10,
+      9
+    ],
+    "presentations": [
+      17,
+      20
+    ],
+    "classPerformance": 10,
+    "midterm": 16,
+    "finalExam": 35
+  },
+  {
+    "studentId": "232-115-001",
+    "courseId": "CSE211",
+    "classTests": [
+      8,
+      7,
+      6
+    ],
+    "presentations": [
+      18,
+      17
+    ],
+    "classPerformance": 7,
+    "midterm": 24,
+    "finalExam": 38
+  },
+  {
+    "studentId": "232-115-001",
+    "courseId": "GED431",
+    "classTests": [
+      6,
+      10,
+      8
+    ],
+    "presentations": [
+      20,
+      19
+    ],
+    "classPerformance": 9,
+    "midterm": 15,
+    "finalExam": 38
+  },
+  {
+    "studentId": "232-115-003",
+    "courseId": "CSE200",
+    "classTests": [
+      8,
+      10,
+      7
+    ],
+    "presentations": [
+      20,
+      16
+    ],
+    "classPerformance": 7,
+    "midterm": 19,
+    "finalExam": 44
+  },
+  {
+    "studentId": "232-115-003",
+    "courseId": "MAT216",
+    "classTests": [
+      6,
+      8,
+      7
+    ],
+    "presentations": [
+      15,
+      16
+    ],
+    "classPerformance": 7,
+    "midterm": 15,
+    "finalExam": 34
+  },
+  {
+    "studentId": "232-115-003",
+    "courseId": "CSE231",
+    "classTests": [
+      9,
+      7,
+      6
+    ],
+    "presentations": [
+      20,
+      18
+    ],
+    "classPerformance": 8,
+    "midterm": 17,
+    "finalExam": 41
+  },
+  {
+    "studentId": "232-115-003",
+    "courseId": "CSE211",
+    "classTests": [
+      8,
+      9,
+      6
+    ],
+    "presentations": [
+      18,
+      17
+    ],
+    "classPerformance": 9,
+    "midterm": 16,
+    "finalExam": 43
+  },
+  {
+    "studentId": "232-115-003",
+    "courseId": "GED431",
+    "classTests": [
+      10,
+      8,
+      6
+    ],
+    "presentations": [
+      16,
+      17
+    ],
+    "classPerformance": 7,
+    "midterm": 16,
+    "finalExam": 34
+  },
+  {
+    "studentId": "232-115-005",
+    "courseId": "CSE200",
+    "classTests": [
+      9,
+      7,
+      8
+    ],
+    "presentations": [
+      15,
+      18
+    ],
+    "classPerformance": 9,
+    "midterm": 17,
+    "finalExam": 45
+  },
+  {
+    "studentId": "232-115-005",
+    "courseId": "MAT216",
+    "classTests": [
+      6,
+      8,
+      9
+    ],
+    "presentations": [
+      20,
+      18
+    ],
+    "classPerformance": 10,
+    "midterm": 18,
+    "finalExam": 33
+  },
+  {
+    "studentId": "232-115-005",
+    "courseId": "CSE231",
+    "classTests": [
+      10,
+      6,
+      7
+    ],
+    "presentations": [
+      18,
+      17
+    ],
+    "classPerformance": 7,
+    "midterm": 16,
+    "finalExam": 44
+  },
+  {
+    "studentId": "232-115-005",
+    "courseId": "CSE211",
+    "classTests": [
+      6,
+      7,
+      9
+    ],
+    "presentations": [
+      18,
+      20
+    ],
+    "classPerformance": 7,
+    "midterm": 18,
+    "finalExam": 43
+  },
+  {
+    "studentId": "232-115-005",
+    "courseId": "GED431",
+    "classTests": [
+      6,
+      9,
+      10
+    ],
+    "presentations": [
+      20,
+      18
+    ],
+    "classPerformance": 10,
+    "midterm": 16,
+    "finalExam": 31
+  },
+  {
+    "studentId": "232-115-006",
+    "courseId": "CSE200",
+    "classTests": [
+      6,
+      7,
+      8
+    ],
+    "presentations": [
+      18,
+      17
+    ],
+    "classPerformance": 10,
+    "midterm": 22,
+    "finalExam": 34
+  },
+  {
+    "studentId": "232-115-006",
+    "courseId": "MAT216",
+    "classTests": [
+      9,
+      7,
+      8
+    ],
+    "presentations": [
+      17,
+      20
+    ],
+    "classPerformance": 7,
+    "midterm": 22,
+    "finalExam": 40
+  },
+  {
+    "studentId": "232-115-006",
+    "courseId": "CSE231",
+    "classTests": [
+      9,
+      7,
+      6
+    ],
+    "presentations": [
+      16,
+      19
+    ],
+    "classPerformance": 8,
+    "midterm": 25,
+    "finalExam": 36
+  },
+  {
+    "studentId": "232-115-006",
+    "courseId": "CSE211",
+    "classTests": [
+      8,
+      9,
+      6
+    ],
+    "presentations": [
+      19,
+      20
+    ],
+    "classPerformance": 7,
+    "midterm": 25,
+    "finalExam": 34
+  },
+  {
+    "studentId": "232-115-006",
+    "courseId": "GED431",
+    "classTests": [
+      8,
+      6,
+      7
+    ],
+    "presentations": [
+      15,
+      19
+    ],
+    "classPerformance": 8,
+    "midterm": 15,
+    "finalExam": 49
+  },
+  {
+    "studentId": "232-115-008",
+    "courseId": "CSE200",
+    "classTests": [
+      6,
+      7,
+      10
+    ],
+    "presentations": [
+      20,
+      18
+    ],
+    "classPerformance": 7,
+    "midterm": 22,
+    "finalExam": 34
+  },
+  {
+    "studentId": "232-115-008",
+    "courseId": "MAT216",
+    "classTests": [
+      10,
+      7,
+      8
+    ],
+    "presentations": [
+      18,
+      20
+    ],
+    "classPerformance": 8,
+    "midterm": 23,
+    "finalExam": 33
+  },
+  {
+    "studentId": "232-115-008",
+    "courseId": "CSE231",
+    "classTests": [
+      9,
+      10,
+      7
+    ],
+    "presentations": [
+      18,
+      16
+    ],
+    "classPerformance": 9,
+    "midterm": 25,
+    "finalExam": 50
+  },
+  {
+    "studentId": "232-115-008",
+    "courseId": "CSE211",
+    "classTests": [
+      10,
+      6,
+      9
+    ],
+    "presentations": [
+      18,
+      19
+    ],
+    "classPerformance": 7,
+    "midterm": 20,
+    "finalExam": 36
+  },
+  {
+    "studentId": "232-115-008",
+    "courseId": "GED431",
+    "classTests": [
+      10,
+      7,
+      6
+    ],
+    "presentations": [
+      16,
+      20
+    ],
+    "classPerformance": 10,
+    "midterm": 19,
+    "finalExam": 46
+  },
+  {
+    "studentId": "232-115-010",
+    "courseId": "CSE200",
+    "classTests": [
+      10,
+      8,
+      7
+    ],
+    "presentations": [
+      15,
+      18
+    ],
+    "classPerformance": 9,
+    "midterm": 17,
+    "finalExam": 33
+  },
+  {
+    "studentId": "232-115-010",
+    "courseId": "MAT216",
+    "classTests": [
+      6,
+      7,
+      9
+    ],
+    "presentations": [
+      18,
+      19
+    ],
+    "classPerformance": 7,
+    "midterm": 23,
+    "finalExam": 36
+  },
+  {
+    "studentId": "232-115-010",
+    "courseId": "CSE231",
+    "classTests": [
+      7,
+      6,
+      9
+    ],
+    "presentations": [
+      16,
+      17
+    ],
+    "classPerformance": 7,
+    "midterm": 18,
+    "finalExam": 44
+  },
+  {
+    "studentId": "232-115-010",
+    "courseId": "CSE211",
+    "classTests": [
+      10,
+      9,
+      6
+    ],
+    "presentations": [
+      19,
+      16
+    ],
+    "classPerformance": 7,
+    "midterm": 19,
+    "finalExam": 33
+  },
+  {
+    "studentId": "232-115-010",
+    "courseId": "GED431",
+    "classTests": [
+      8,
+      7,
+      10
+    ],
+    "presentations": [
+      20,
+      17
+    ],
+    "classPerformance": 7,
+    "midterm": 19,
+    "finalExam": 49
+  },
+  {
+    "studentId": "232-115-011",
+    "courseId": "CSE200",
+    "classTests": [
+      6,
+      8,
+      9
+    ],
+    "presentations": [
+      19,
+      18
+    ],
+    "classPerformance": 7,
+    "midterm": 15,
+    "finalExam": 46
+  },
+  {
+    "studentId": "232-115-011",
+    "courseId": "MAT216",
+    "classTests": [
+      9,
+      7,
+      6
+    ],
+    "presentations": [
+      17,
+      15
+    ],
+    "classPerformance": 7,
+    "midterm": 16,
+    "finalExam": 36
+  },
+  {
+    "studentId": "232-115-011",
+    "courseId": "CSE231",
+    "classTests": [
+      9,
+      8,
+      10
+    ],
+    "presentations": [
+      17,
+      20
+    ],
+    "classPerformance": 8,
+    "midterm": 23,
+    "finalExam": 31
+  },
+  {
+    "studentId": "232-115-011",
+    "courseId": "CSE211",
+    "classTests": [
+      10,
+      6,
+      9
+    ],
+    "presentations": [
+      15,
+      18
+    ],
+    "classPerformance": 7,
+    "midterm": 21,
+    "finalExam": 40
+  },
+  {
+    "studentId": "232-115-011",
+    "courseId": "GED431",
+    "classTests": [
+      8,
+      6,
+      7
+    ],
+    "presentations": [
+      17,
+      20
+    ],
+    "classPerformance": 10,
+    "midterm": 19,
+    "finalExam": 42
+  },
+  {
+    "studentId": "232-115-013",
+    "courseId": "CSE200",
+    "classTests": [
+      7,
+      6,
+      10
+    ],
+    "presentations": [
+      17,
+      19
+    ],
+    "classPerformance": 7,
+    "midterm": 18,
+    "finalExam": 32
+  },
+  {
+    "studentId": "232-115-013",
+    "courseId": "MAT216",
+    "classTests": [
+      6,
+      8,
+      7
+    ],
+    "presentations": [
+      17,
+      18
+    ],
+    "classPerformance": 7,
+    "midterm": 17,
+    "finalExam": 48
+  },
+  {
+    "studentId": "232-115-013",
+    "courseId": "CSE231",
+    "classTests": [
+      7,
+      8,
+      9
+    ],
+    "presentations": [
+      17,
+      15
+    ],
+    "classPerformance": 10,
+    "midterm": 23,
+    "finalExam": 50
+  },
+  {
+    "studentId": "232-115-013",
+    "courseId": "CSE211",
+    "classTests": [
+      9,
+      6,
+      7
+    ],
+    "presentations": [
+      20,
+      18
+    ],
+    "classPerformance": 7,
+    "midterm": 17,
+    "finalExam": 50
+  },
+  {
+    "studentId": "232-115-013",
+    "courseId": "GED431",
+    "classTests": [
+      8,
+      6,
+      9
+    ],
+    "presentations": [
+      15,
+      16
+    ],
+    "classPerformance": 9,
+    "midterm": 16,
+    "finalExam": 36
+  },
+  {
+    "studentId": "232-115-015",
+    "courseId": "CSE200",
+    "classTests": [
+      6,
+      10,
+      9
+    ],
+    "presentations": [
+      18,
+      20
+    ],
+    "classPerformance": 10,
+    "midterm": 15,
+    "finalExam": 36
+  },
+  {
+    "studentId": "232-115-015",
+    "courseId": "MAT216",
+    "classTests": [
+      7,
+      8,
+      9
+    ],
+    "presentations": [
+      17,
+      19
+    ],
+    "classPerformance": 9,
+    "midterm": 22,
+    "finalExam": 35
+  },
+  {
+    "studentId": "232-115-015",
+    "courseId": "CSE231",
+    "classTests": [
+      8,
+      10,
+      9
+    ],
+    "presentations": [
+      19,
+      18
+    ],
+    "classPerformance": 9,
+    "midterm": 24,
+    "finalExam": 36
+  },
+  {
+    "studentId": "232-115-015",
+    "courseId": "CSE211",
+    "classTests": [
+      7,
+      10,
+      9
+    ],
+    "presentations": [
+      17,
+      15
+    ],
+    "classPerformance": 9,
+    "midterm": 15,
+    "finalExam": 30
+  },
+  {
+    "studentId": "232-115-015",
+    "courseId": "GED431",
+    "classTests": [
+      7,
+      8,
+      6
+    ],
+    "presentations": [
+      20,
+      18
+    ],
+    "classPerformance": 7,
+    "midterm": 15,
+    "finalExam": 33
+  },
+  {
+    "studentId": "232-115-017",
+    "courseId": "CSE200",
+    "classTests": [
+      6,
+      8,
+      7
+    ],
+    "presentations": [
+      17,
+      15
+    ],
+    "classPerformance": 10,
+    "midterm": 24,
+    "finalExam": 40
+  },
+  {
+    "studentId": "232-115-017",
+    "courseId": "MAT216",
+    "classTests": [
+      6,
+      8,
+      9
+    ],
+    "presentations": [
+      20,
+      17
+    ],
+    "classPerformance": 9,
+    "midterm": 16,
+    "finalExam": 33
+  },
+  {
+    "studentId": "232-115-017",
+    "courseId": "CSE231",
+    "classTests": [
+      10,
+      7,
+      8
+    ],
+    "presentations": [
+      15,
+      18
+    ],
+    "classPerformance": 7,
+    "midterm": 19,
+    "finalExam": 41
+  },
+  {
+    "studentId": "232-115-017",
+    "courseId": "CSE211",
+    "classTests": [
+      10,
+      6,
+      7
+    ],
+    "presentations": [
+      19,
+      18
+    ],
+    "classPerformance": 7,
+    "midterm": 21,
+    "finalExam": 41
+  },
+  {
+    "studentId": "232-115-017",
+    "courseId": "GED431",
+    "classTests": [
+      8,
+      6,
+      9
+    ],
+    "presentations": [
+      16,
+      18
+    ],
+    "classPerformance": 10,
+    "midterm": 16,
+    "finalExam": 34
+  },
+  {
+    "studentId": "232-115-018",
+    "courseId": "CSE200",
+    "classTests": [
+      10,
+      6,
+      9
+    ],
+    "presentations": [
+      18,
+      16
+    ],
+    "classPerformance": 8,
+    "midterm": 19,
+    "finalExam": 42
+  },
+  {
+    "studentId": "232-115-018",
+    "courseId": "MAT216",
+    "classTests": [
+      6,
+      10,
+      8
+    ],
+    "presentations": [
+      18,
+      16
+    ],
+    "classPerformance": 9,
+    "midterm": 23,
+    "finalExam": 46
+  },
+  {
+    "studentId": "232-115-018",
+    "courseId": "CSE231",
+    "classTests": [
+      9,
+      7,
+      10
+    ],
+    "presentations": [
+      18,
+      17
+    ],
+    "classPerformance": 8,
+    "midterm": 19,
+    "finalExam": 32
+  },
+  {
+    "studentId": "232-115-018",
+    "courseId": "CSE211",
+    "classTests": [
+      10,
+      8,
+      7
+    ],
+    "presentations": [
+      20,
+      16
+    ],
+    "classPerformance": 10,
+    "midterm": 22,
+    "finalExam": 41
+  },
+  {
+    "studentId": "232-115-018",
+    "courseId": "GED431",
+    "classTests": [
+      7,
+      8,
+      6
+    ],
+    "presentations": [
+      20,
+      19
+    ],
+    "classPerformance": 7,
+    "midterm": 16,
+    "finalExam": 34
+  },
+  {
+    "studentId": "232-115-019",
+    "courseId": "CSE200",
+    "classTests": [
+      10,
+      7,
+      8
+    ],
+    "presentations": [
+      15,
+      20
+    ],
+    "classPerformance": 8,
+    "midterm": 19,
+    "finalExam": 31
+  },
+  {
+    "studentId": "232-115-019",
+    "courseId": "MAT216",
+    "classTests": [
+      8,
+      9,
+      6
+    ],
+    "presentations": [
+      19,
+      20
+    ],
+    "classPerformance": 9,
+    "midterm": 18,
+    "finalExam": 36
+  },
+  {
+    "studentId": "232-115-019",
+    "courseId": "CSE231",
+    "classTests": [
+      7,
+      6,
+      9
+    ],
+    "presentations": [
+      17,
+      20
+    ],
+    "classPerformance": 9,
+    "midterm": 19,
+    "finalExam": 46
+  },
+  {
+    "studentId": "232-115-019",
+    "courseId": "CSE211",
+    "classTests": [
+      9,
+      10,
+      6
+    ],
+    "presentations": [
+      18,
+      15
+    ],
+    "classPerformance": 10,
+    "midterm": 17,
+    "finalExam": 30
+  },
+  {
+    "studentId": "232-115-019",
+    "courseId": "GED431",
+    "classTests": [
+      9,
+      10,
+      8
+    ],
+    "presentations": [
+      19,
+      20
+    ],
+    "classPerformance": 10,
+    "midterm": 24,
+    "finalExam": 38
+  },
+  {
+    "studentId": "232-115-020",
+    "courseId": "CSE200",
+    "classTests": [
+      8,
+      6,
+      9
+    ],
+    "presentations": [
+      17,
+      19
+    ],
+    "classPerformance": 7,
+    "midterm": 21,
+    "finalExam": 30
+  },
+  {
+    "studentId": "232-115-020",
+    "courseId": "MAT216",
+    "classTests": [
+      10,
+      7,
+      9
+    ],
+    "presentations": [
+      17,
+      18
+    ],
+    "classPerformance": 7,
+    "midterm": 19,
+    "finalExam": 39
+  },
+  {
+    "studentId": "232-115-020",
+    "courseId": "CSE231",
+    "classTests": [
+      6,
+      9,
+      10
+    ],
+    "presentations": [
+      19,
+      18
+    ],
+    "classPerformance": 9,
+    "midterm": 23,
+    "finalExam": 34
+  },
+  {
+    "studentId": "232-115-020",
+    "courseId": "CSE211",
+    "classTests": [
+      7,
+      8,
+      6
+    ],
+    "presentations": [
+      19,
+      17
+    ],
+    "classPerformance": 10,
+    "midterm": 15,
+    "finalExam": 49
+  },
+  {
+    "studentId": "232-115-020",
+    "courseId": "GED431",
+    "classTests": [
+      6,
+      7,
+      10
+    ],
+    "presentations": [
+      20,
+      19
+    ],
+    "classPerformance": 10,
+    "midterm": 21,
+    "finalExam": 50
+  },
+  {
+    "studentId": "232-115-022",
+    "courseId": "CSE200",
+    "classTests": [
+      9,
+      7,
+      10
+    ],
+    "presentations": [
+      17,
+      15
+    ],
+    "classPerformance": 8,
+    "midterm": 24,
+    "finalExam": 46
+  },
+  {
+    "studentId": "232-115-022",
+    "courseId": "MAT216",
+    "classTests": [
+      9,
+      10,
+      6
+    ],
+    "presentations": [
+      17,
+      15
+    ],
+    "classPerformance": 10,
+    "midterm": 25,
+    "finalExam": 38
+  },
+  {
+    "studentId": "232-115-022",
+    "courseId": "CSE231",
+    "classTests": [
+      8,
+      7,
+      10
+    ],
+    "presentations": [
+      18,
+      16
+    ],
+    "classPerformance": 8,
+    "midterm": 22,
+    "finalExam": 33
+  },
+  {
+    "studentId": "232-115-022",
+    "courseId": "CSE211",
+    "classTests": [
+      8,
+      6,
+      7
+    ],
+    "presentations": [
+      16,
+      19
+    ],
+    "classPerformance": 9,
+    "midterm": 23,
+    "finalExam": 36
+  },
+  {
+    "studentId": "232-115-022",
+    "courseId": "GED431",
+    "classTests": [
+      8,
+      9,
+      10
+    ],
+    "presentations": [
+      17,
+      18
+    ],
+    "classPerformance": 8,
+    "midterm": 25,
+    "finalExam": 32
+  },
+  {
+    "studentId": "232-115-025",
+    "courseId": "CSE200",
+    "classTests": [
+      10,
+      6,
+      7
+    ],
+    "presentations": [
+      20,
+      15
+    ],
+    "classPerformance": 8,
+    "midterm": 23,
+    "finalExam": 46
+  },
+  {
+    "studentId": "232-115-025",
+    "courseId": "MAT216",
+    "classTests": [
+      9,
+      7,
+      8
+    ],
+    "presentations": [
+      16,
+      18
+    ],
+    "classPerformance": 7,
+    "midterm": 18,
+    "finalExam": 48
+  },
+  {
+    "studentId": "232-115-025",
+    "courseId": "CSE231",
+    "classTests": [
+      8,
+      9,
+      7
+    ],
+    "presentations": [
+      16,
+      17
+    ],
+    "classPerformance": 8,
+    "midterm": 16,
+    "finalExam": 40
+  },
+  {
+    "studentId": "232-115-025",
+    "courseId": "CSE211",
+    "classTests": [
+      8,
+      9,
+      6
+    ],
+    "presentations": [
+      15,
+      17
+    ],
+    "classPerformance": 10,
+    "midterm": 18,
+    "finalExam": 40
+  },
+  {
+    "studentId": "232-115-025",
+    "courseId": "GED431",
+    "classTests": [
+      7,
+      8,
+      10
+    ],
+    "presentations": [
+      17,
+      19
+    ],
+    "classPerformance": 8,
+    "midterm": 17,
+    "finalExam": 46
+  },
+  {
+    "studentId": "232-115-028",
+    "courseId": "CSE200",
+    "classTests": [
+      6,
+      10,
+      9
+    ],
+    "presentations": [
+      17,
+      18
+    ],
+    "classPerformance": 8,
+    "midterm": 15,
+    "finalExam": 36
+  },
+  {
+    "studentId": "232-115-028",
+    "courseId": "MAT216",
+    "classTests": [
+      6,
+      8,
+      10
+    ],
+    "presentations": [
+      18,
+      17
+    ],
+    "classPerformance": 9,
+    "midterm": 21,
+    "finalExam": 46
+  },
+  {
+    "studentId": "232-115-028",
+    "courseId": "CSE231",
+    "classTests": [
+      8,
+      6,
+      7
+    ],
+    "presentations": [
+      19,
+      17
+    ],
+    "classPerformance": 8,
+    "midterm": 25,
+    "finalExam": 33
+  },
+  {
+    "studentId": "232-115-028",
+    "courseId": "CSE211",
+    "classTests": [
+      6,
+      7,
+      9
+    ],
+    "presentations": [
+      18,
+      17
+    ],
+    "classPerformance": 7,
+    "midterm": 22,
+    "finalExam": 46
+  },
+  {
+    "studentId": "232-115-028",
+    "courseId": "GED431",
+    "classTests": [
+      7,
+      8,
+      6
+    ],
+    "presentations": [
+      20,
+      17
+    ],
+    "classPerformance": 8,
+    "midterm": 21,
+    "finalExam": 40
+  },
+  {
+    "studentId": "232-115-031",
+    "courseId": "CSE200",
+    "classTests": [
+      9,
+      8,
+      7
+    ],
+    "presentations": [
+      18,
+      19
+    ],
+    "classPerformance": 10,
+    "midterm": 21,
+    "finalExam": 45
+  },
+  {
+    "studentId": "232-115-031",
+    "courseId": "MAT216",
+    "classTests": [
+      8,
+      9,
+      7
+    ],
+    "presentations": [
+      15,
+      18
+    ],
+    "classPerformance": 8,
+    "midterm": 25,
+    "finalExam": 34
+  },
+  {
+    "studentId": "232-115-031",
+    "courseId": "CSE231",
+    "classTests": [
+      9,
+      10,
+      8
+    ],
+    "presentations": [
+      15,
+      19
+    ],
+    "classPerformance": 8,
+    "midterm": 21,
+    "finalExam": 40
+  },
+  {
+    "studentId": "232-115-031",
+    "courseId": "CSE211",
+    "classTests": [
+      6,
+      9,
+      7
+    ],
+    "presentations": [
+      19,
+      16
+    ],
+    "classPerformance": 7,
+    "midterm": 20,
+    "finalExam": 33
+  },
+  {
+    "studentId": "232-115-031",
+    "courseId": "GED431",
+    "classTests": [
+      8,
+      7,
+      6
+    ],
+    "presentations": [
+      16,
+      19
+    ],
+    "classPerformance": 10,
+    "midterm": 21,
+    "finalExam": 48
+  },
+  {
+    "studentId": "232-115-033",
+    "courseId": "CSE200",
+    "classTests": [
+      7,
+      9,
+      10
+    ],
+    "presentations": [
+      17,
+      20
+    ],
+    "classPerformance": 8,
+    "midterm": 24,
+    "finalExam": 34
+  },
+  {
+    "studentId": "232-115-033",
+    "courseId": "MAT216",
+    "classTests": [
+      6,
+      10,
+      9
+    ],
+    "presentations": [
+      15,
+      19
+    ],
+    "classPerformance": 10,
+    "midterm": 17,
+    "finalExam": 41
+  },
+  {
+    "studentId": "232-115-033",
+    "courseId": "CSE231",
+    "classTests": [
+      9,
+      10,
+      8
+    ],
+    "presentations": [
+      15,
+      19
+    ],
+    "classPerformance": 10,
+    "midterm": 21,
+    "finalExam": 41
+  },
+  {
+    "studentId": "232-115-033",
+    "courseId": "CSE211",
+    "classTests": [
+      6,
+      7,
+      9
+    ],
+    "presentations": [
+      19,
+      18
+    ],
+    "classPerformance": 8,
+    "midterm": 24,
+    "finalExam": 38
+  },
+  {
+    "studentId": "232-115-033",
+    "courseId": "GED431",
+    "classTests": [
+      6,
+      8,
+      7
+    ],
+    "presentations": [
+      15,
+      19
+    ],
+    "classPerformance": 8,
+    "midterm": 24,
+    "finalExam": 35
+  },
+  {
+    "studentId": "232-115-035",
+    "courseId": "CSE200",
+    "classTests": [
+      10,
+      9,
+      6
+    ],
+    "presentations": [
+      20,
+      15
+    ],
+    "classPerformance": 9,
+    "midterm": 25,
+    "finalExam": 43
+  },
+  {
+    "studentId": "232-115-035",
+    "courseId": "MAT216",
+    "classTests": [
+      9,
+      7,
+      8
+    ],
+    "presentations": [
+      16,
+      20
+    ],
+    "classPerformance": 10,
+    "midterm": 20,
+    "finalExam": 46
+  },
+  {
+    "studentId": "232-115-035",
+    "courseId": "CSE231",
+    "classTests": [
+      9,
+      6,
+      8
+    ],
+    "presentations": [
+      20,
+      17
+    ],
+    "classPerformance": 7,
+    "midterm": 20,
+    "finalExam": 48
+  },
+  {
+    "studentId": "232-115-035",
+    "courseId": "CSE211",
+    "classTests": [
+      9,
+      8,
+      10
+    ],
+    "presentations": [
+      19,
+      15
+    ],
+    "classPerformance": 8,
+    "midterm": 17,
+    "finalExam": 50
+  },
+  {
+    "studentId": "232-115-035",
+    "courseId": "GED431",
+    "classTests": [
+      9,
+      10,
+      6
+    ],
+    "presentations": [
+      19,
+      20
+    ],
+    "classPerformance": 7,
+    "midterm": 20,
+    "finalExam": 30
+  },
+  {
+    "studentId": "232-115-036",
+    "courseId": "CSE200",
+    "classTests": [
+      8,
+      6,
+      7
+    ],
+    "presentations": [
+      18,
+      15
+    ],
+    "classPerformance": 10,
+    "midterm": 15,
+    "finalExam": 35
+  },
+  {
+    "studentId": "232-115-036",
+    "courseId": "MAT216",
+    "classTests": [
+      10,
+      6,
+      9
+    ],
+    "presentations": [
+      17,
+      20
+    ],
+    "classPerformance": 9,
+    "midterm": 15,
+    "finalExam": 47
+  },
+  {
+    "studentId": "232-115-036",
+    "courseId": "CSE231",
+    "classTests": [
+      6,
+      9,
+      8
+    ],
+    "presentations": [
+      17,
+      15
+    ],
+    "classPerformance": 7,
+    "midterm": 23,
+    "finalExam": 37
+  },
+  {
+    "studentId": "232-115-036",
+    "courseId": "CSE211",
+    "classTests": [
+      10,
+      8,
+      9
+    ],
+    "presentations": [
+      20,
+      19
+    ],
+    "classPerformance": 7,
+    "midterm": 15,
+    "finalExam": 31
+  },
+  {
+    "studentId": "232-115-036",
+    "courseId": "GED431",
+    "classTests": [
+      8,
+      6,
+      7
+    ],
+    "presentations": [
+      15,
+      18
+    ],
+    "classPerformance": 9,
+    "midterm": 16,
+    "finalExam": 38
+  },
+  {
+    "studentId": "232-115-038",
+    "courseId": "CSE200",
+    "classTests": [
+      6,
+      7,
+      8
+    ],
+    "presentations": [
+      15,
+      18
+    ],
+    "classPerformance": 8,
+    "midterm": 25,
+    "finalExam": 31
+  },
+  {
+    "studentId": "232-115-038",
+    "courseId": "MAT216",
+    "classTests": [
+      9,
+      10,
+      8
+    ],
+    "presentations": [
+      19,
+      20
+    ],
+    "classPerformance": 10,
+    "midterm": 18,
+    "finalExam": 35
+  },
+  {
+    "studentId": "232-115-038",
+    "courseId": "CSE231",
+    "classTests": [
+      6,
+      8,
+      9
+    ],
+    "presentations": [
+      16,
+      18
+    ],
+    "classPerformance": 8,
+    "midterm": 23,
+    "finalExam": 30
+  },
+  {
+    "studentId": "232-115-038",
+    "courseId": "CSE211",
+    "classTests": [
+      7,
+      10,
+      9
+    ],
+    "presentations": [
+      19,
+      18
+    ],
+    "classPerformance": 7,
+    "midterm": 16,
+    "finalExam": 35
+  },
+  {
+    "studentId": "232-115-038",
+    "courseId": "GED431",
+    "classTests": [
+      10,
+      9,
+      7
+    ],
+    "presentations": [
+      20,
+      16
+    ],
+    "classPerformance": 10,
+    "midterm": 21,
+    "finalExam": 33
+  },
+  {
+    "studentId": "232-115-039",
+    "courseId": "CSE200",
+    "classTests": [
+      8,
+      6,
+      9
+    ],
+    "presentations": [
+      16,
+      17
+    ],
+    "classPerformance": 8,
+    "midterm": 19,
+    "finalExam": 41
+  },
+  {
+    "studentId": "232-115-039",
+    "courseId": "MAT216",
+    "classTests": [
+      10,
+      8,
+      6
+    ],
+    "presentations": [
+      15,
+      17
+    ],
+    "classPerformance": 7,
+    "midterm": 18,
+    "finalExam": 46
+  },
+  {
+    "studentId": "232-115-039",
+    "courseId": "CSE231",
+    "classTests": [
+      7,
+      10,
+      6
+    ],
+    "presentations": [
+      18,
+      15
+    ],
+    "classPerformance": 10,
+    "midterm": 17,
+    "finalExam": 41
+  },
+  {
+    "studentId": "232-115-039",
+    "courseId": "CSE211",
+    "classTests": [
+      7,
+      6,
+      9
+    ],
+    "presentations": [
+      17,
+      18
+    ],
+    "classPerformance": 8,
+    "midterm": 17,
+    "finalExam": 36
+  },
+  {
+    "studentId": "232-115-039",
+    "courseId": "GED431",
+    "classTests": [
+      10,
+      7,
+      8
+    ],
+    "presentations": [
+      17,
+      15
+    ],
+    "classPerformance": 10,
+    "midterm": 19,
+    "finalExam": 50
+  },
+  {
+    "studentId": "232-115-040",
+    "courseId": "CSE200",
+    "classTests": [
+      7,
+      9,
+      8
+    ],
+    "presentations": [
+      20,
+      15
+    ],
+    "classPerformance": 7,
+    "midterm": 18,
+    "finalExam": 44
+  },
+  {
+    "studentId": "232-115-040",
+    "courseId": "MAT216",
+    "classTests": [
+      6,
+      10,
+      7
+    ],
+    "presentations": [
+      18,
+      16
+    ],
+    "classPerformance": 7,
+    "midterm": 15,
+    "finalExam": 36
+  },
+  {
+    "studentId": "232-115-040",
+    "courseId": "CSE231",
+    "classTests": [
+      10,
+      6,
+      9
+    ],
+    "presentations": [
+      19,
+      17
+    ],
+    "classPerformance": 7,
+    "midterm": 25,
+    "finalExam": 37
+  },
+  {
+    "studentId": "232-115-040",
+    "courseId": "CSE211",
+    "classTests": [
+      10,
+      8,
+      7
+    ],
+    "presentations": [
+      20,
+      16
+    ],
+    "classPerformance": 9,
+    "midterm": 21,
+    "finalExam": 42
+  },
+  {
+    "studentId": "232-115-040",
+    "courseId": "GED431",
+    "classTests": [
+      6,
+      10,
+      7
+    ],
+    "presentations": [
+      19,
+      16
+    ],
+    "classPerformance": 9,
+    "midterm": 22,
+    "finalExam": 42
+  }
+];
