@@ -57,7 +57,7 @@ export const students: Student[] = [
     name: "Mehedi Hasan", 
     email: "mehedi.hasan@example.com", 
     program: "Computer Science and Engineering", 
-    semester: 1, 
+    semester: 4, 
     enrollmentDate: "2022-01-15" 
   },
   { 
@@ -65,7 +65,7 @@ export const students: Student[] = [
     name: "Mehrab Hasan", 
     email: "mehrab.hasan@example.com", 
     program: "Computer Science and Engineering", 
-    semester: 1, 
+    semester: 4, 
     enrollmentDate: "2022-01-15" 
   },
   { 
@@ -73,7 +73,7 @@ export const students: Student[] = [
     name: "Navid Zaman Khan", 
     email: "navid.khan@example.com", 
     program: "Computer Science and Engineering", 
-    semester: 1, 
+    semester: 4, 
     enrollmentDate: "2022-01-15" 
   },
   { 
@@ -81,7 +81,7 @@ export const students: Student[] = [
     name: "Mona Akther Jui", 
     email: "mona.jui@example.com", 
     program: "Computer Science and Engineering", 
-    semester: 1, 
+    semester: 4, 
     enrollmentDate: "2022-01-15" 
   },
   { 
@@ -89,7 +89,7 @@ export const students: Student[] = [
     name: "Sadman Sakib", 
     email: "sadman.sakib@example.com", 
     program: "Computer Science and Engineering", 
-    semester: 1, 
+    semester: 4, 
     enrollmentDate: "2022-01-15" 
   },
 ];
@@ -142,53 +142,233 @@ export const attendance: AttendanceRecord[] = [
   { studentId: "232-115-006", date: "2023-10-22", status: "present", courseId: "CSE200" },
 ];
 
-// Updated mock marks
+// Mock marks data
 export const marks: Mark[] = [
   {
     studentId: "232-115-005",
     courseId: "CSE200",
-    classTests: [8, 7, 9],
-    presentations: [16, 18],
+    classTests: [7, 8, 9],
+    presentations: [20, 17],
+    classPerformance: 10,
+    midterm: 25,
+    finalExam: 38
+  },
+  {
+    studentId: "232-115-005",
+    courseId: "MAT216",
+    classTests: [9, 10, 7],
+    presentations: [15, 18],
     classPerformance: 9,
-    midterm: 23,
-    finalExam: 43
+    midterm: 20,
+    finalExam: 50
   },
   {
     studentId: "232-115-005",
     courseId: "CSE231",
-    classTests: [6, 7, 8],
-    presentations: [15, 14],
+    classTests: [9, 8, 9],
+    presentations: [15, 20],
+    classPerformance: 7,
+    midterm: 22,
+    finalExam: 49
+  },
+  {
+    studentId: "232-115-005",
+    courseId: "CSE211",
+    classTests: [7, 7, 10],
+    presentations: [15, 16],
     classPerformance: 8,
-    midterm: 21,
-    finalExam: 38
+    midterm: 22,
+    finalExam: 44
+  },
+  {
+    studentId: "232-115-005",
+    courseId: "GED431",
+    classTests: [9, 8, 7],
+    presentations: [16, 17],
+    classPerformance: 8,
+    midterm: 25,
+    finalExam: 42
   },
   {
     studentId: "232-115-006",
     courseId: "CSE200",
-    classTests: [9, 8, 10],
-    presentations: [18, 19],
+    classTests: [6, 9, 10],
+    presentations: [20, 20],
+    classPerformance: 10,
+    midterm: 21,
+    finalExam: 48
+  },
+  {
+    studentId: "232-115-006",
+    courseId: "MAT216",
+    classTests: [7, 9, 9],
+    presentations: [17, 19],
     classPerformance: 9,
-    midterm: 25,
+    midterm: 22,
     finalExam: 46
   },
   {
     studentId: "232-115-006",
+    courseId: "CSE231",
+    classTests: [6, 8, 8],
+    presentations: [20, 16],
+    classPerformance: 8,
+    midterm: 24,
+    finalExam: 44
+  },
+  {
+    studentId: "232-115-006",
     courseId: "CSE211",
-    classTests: [7, 8, 6],
-    presentations: [16, 15],
-    classPerformance: 7,
+    classTests: [10, 7, 7],
+    presentations: [19, 19],
+    classPerformance: 9,
+    midterm: 25,
+    finalExam: 47
+  },
+  {
+    studentId: "232-115-006",
+    courseId: "GED431",
+    classTests: [6, 8, 8],
+    presentations: [14, 14],
+    classPerformance: 9,
+    midterm: 24,
+    finalExam: 38
+  },
+  {
+    studentId: "232-115-008",
+    courseId: "CSE200",
+    classTests: [6, 6, 6],
+    presentations: [14, 19],
+    classPerformance: 8,
     midterm: 22,
-    finalExam: 40
+    finalExam: 36
+  },
+  {
+    studentId: "232-115-008",
+    courseId: "MAT216",
+    classTests: [9, 10, 9],
+    presentations: [18, 14],
+    classPerformance: 8,
+    midterm: 23,
+    finalExam: 47
+  },
+  {
+    studentId: "232-115-008",
+    courseId: "CSE231",
+    classTests: [8, 9, 6],
+    presentations: [18, 14],
+    classPerformance: 7,
+    midterm: 21,
+    finalExam: 48
+  },
+  {
+    studentId: "232-115-008",
+    courseId: "CSE211",
+    classTests: [6, 6, 6],
+    presentations: [20, 17],
+    classPerformance: 10,
+    midterm: 25,
+    finalExam: 35
   },
   {
     studentId: "232-115-008",
     courseId: "GED431",
-    classTests: [8, 9, 7],
-    presentations: [17, 16],
+    classTests: [10, 10, 9],
+    presentations: [19, 15],
+    classPerformance: 9,
+    midterm: 23,
+    finalExam: 40
+  },
+  {
+    studentId: "232-115-009",
+    courseId: "CSE200",
+    classTests: [10, 7, 8],
+    presentations: [20, 15],
+    classPerformance: 10,
+    midterm: 24,
+    finalExam: 40
+  },
+  {
+    studentId: "232-115-009",
+    courseId: "MAT216",
+    classTests: [9, 10, 9],
+    presentations: [17, 17],
+    classPerformance: 7,
+    midterm: 21,
+    finalExam: 36
+  },
+  {
+    studentId: "232-115-009",
+    courseId: "CSE231",
+    classTests: [9, 9, 9],
+    presentations: [18, 20],
+    classPerformance: 8,
+    midterm: 20,
+    finalExam: 43
+  },
+  {
+    studentId: "232-115-009",
+    courseId: "CSE211",
+    classTests: [9, 9, 6],
+    presentations: [15, 20],
+    classPerformance: 9,
+    midterm: 24,
+    finalExam: 35
+  },
+  {
+    studentId: "232-115-009",
+    courseId: "GED431",
+    classTests: [9, 7, 6],
+    presentations: [16, 15],
     classPerformance: 8,
     midterm: 24,
-    finalExam: 42
+    finalExam: 35
   },
+  {
+    studentId: "232-115-011",
+    courseId: "CSE200",
+    classTests: [7, 6, 6],
+    presentations: [17, 20],
+    classPerformance: 7,
+    midterm: 25,
+    finalExam: 37
+  },
+  {
+    studentId: "232-115-011",
+    courseId: "MAT216",
+    classTests: [10, 6, 6],
+    presentations: [18, 15],
+    classPerformance: 10,
+    midterm: 24,
+    finalExam: 43
+  },
+  {
+    studentId: "232-115-011",
+    courseId: "CSE231",
+    classTests: [6, 9, 10],
+    presentations: [15, 18],
+    classPerformance: 7,
+    midterm: 21,
+    finalExam: 44
+  },
+  {
+    studentId: "232-115-011",
+    courseId: "CSE211",
+    classTests: [10, 9, 8],
+    presentations: [14, 18],
+    classPerformance: 7,
+    midterm: 23,
+    finalExam: 45
+  },
+  {
+    studentId: "232-115-011",
+    courseId: "GED431",
+    classTests: [10, 6, 10],
+    presentations: [17, 15],
+    classPerformance: 10,
+    midterm: 22,
+    finalExam: 44
+  }
 ];
 
 // Helper function to calculate student's attendance rate
