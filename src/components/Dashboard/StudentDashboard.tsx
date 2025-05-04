@@ -206,8 +206,8 @@ const StudentDashboard: React.FC = () => {
                     <TableRow>
                       <TableHead>Course</TableHead>
                       <TableHead>Class Tests</TableHead>
-                      <TableHead>Presentations</TableHead>
-                      <TableHead>Class Performance</TableHead>
+                      <TableHead>Presentations & Assignment</TableHead>
+                      <TableHead>Quiz</TableHead>
                       <TableHead>Midterm</TableHead>
                       <TableHead>Final Exam</TableHead>
                       <TableHead>Total Marks</TableHead>
