@@ -42,13 +42,36 @@ export interface Mark {
 
 // Mock users for authentication
 export const users: User[] = [
-  { id: "admin1", name: "Admin User", password: "admin123", role: "admin" },
+  { id: "232-115-001", name: "Athia Jannat Sami", password: "athia001", role: "student" },
+  { id: "232-115-003", name: "Fatema Begum", password: "fatema003", role: "student" },
   { id: "232-115-005", name: "Mehedi Hasan", password: "mehedi005", role: "student" },
-  { id: "232-115-006", name: "Mehrab Hasan", password: "mehrab006", role: "student" },
-  { id: "232-115-008", name: "Navid Zaman Khan", password: "navid008", role: "student" },
-  { id: "232-115-009", name: "Mona Akther Jui", password: "jui009", role: "student" },
-  { id: "232-115-011", name: "Sadman Sakib", password: "sadman011", role: "student" },
+  { id: "232-115-006", name: "Md. Mehrab Hasan Akhanjee", password: "mehrab006", role: "student" },
+  { id: "232-115-008", name: "Md. Navid Zaman Khan", password: "navid008", role: "student" },
+  { id: "232-115-010", name: "Rita Begum", password: "rita010", role: "student" },
+  { id: "232-115-011", name: "Sadman Sakib Khan", password: "sadman011", role: "student" },
+  { id: "232-115-013", name: "Jibran Masum Didar", password: "jibran013", role: "student" },
+  { id: "232-115-015", name: "Md. Masudul Hasan Akib", password: "akib015", role: "student" },
+  { id: "232-115-016", name: "Najia Akter Lubna", password: "lubna016", role: "student" },
+  { id: "232-115-017", name: "Halima Jahan Chowdhury", password: "halima017", role: "student" },
+  { id: "232-115-018", name: "Mehedi Hasan Emon", password: "emon018", role: "student" },
+  { id: "232-115-019", name: "Fatema Jannat Ema", password: "ema019", role: "student" },
+  { id: "232-115-020", name: "Md. Udoy Hossain Tahim", password: "tahim020", role: "student" },
+  { id: "232-115-022", name: "Abid Shahriar", password: "abid022", role: "student" },
+  { id: "232-115-025", name: "Samiya Rahman Bushra", password: "bushra025", role: "student" },
+  { id: "232-115-028", name: "Fahima Akter", password: "fahima028", role: "student" },
+  { id: "232-115-030", name: "Sukta Rani Chandra", password: "sukta030", role: "student" },
+  { id: "232-115-031", name: "Nadia Muntaha", password: "nadia031", role: "student" },
+  { id: "232-115-032", name: "Shamsun Naher", password: "naher032", role: "student" },
+  { id: "232-115-033", name: "Arshika Noor", password: "arshika033", role: "student" },
+  { id: "232-115-034", name: "Anij Fatema Lisa", password: "lisa034", role: "student" },
+  { id: "232-115-035", name: "Samiha Jannah Najah", password: "samiha035", role: "student" },
+  { id: "232-115-036", name: "Mahbuba Khanom Mumu", password: "mumu036", role: "student" },
+  { id: "232-115-038", name: "Sumaya Akther Rose", password: "sumaya038", role: "student" },
+  { id: "232-115-039", name: "Sadia Sharmin Tumpa", password: "tumpa039", role: "student" },
+  { id: "232-115-040", name: "Jannatul Fardous", password: "fardous040", role: "student" },
+  { id: "admin1", name: "Admin User", password: "admin123", role: "admin" }
 ];
+
 
 // Mock student data
 export const students: Student[] = [
