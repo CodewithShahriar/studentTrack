@@ -67,10 +67,12 @@ const ResultsTable: React.FC = () => {
         ...updatedMarks[markIndex],
         classTests: [...editedMarks.classTests],
         presentations: [...editedMarks.presentations],
-        classPerformance: editedMarks.classPerformance,
-        midterm: editedMarks.midterm,
+        attendance: editedMarks.attendance,
+        assignment: editedMarks.assignment,
+        quiz: editedMarks.quiz,
         finalExam: editedMarks.finalExam
       };
+      
       
       setMarksData(updatedMarks);
     } else {
