@@ -413,10 +413,14 @@ export const calculateTotalGrade = (mark: Mark): { totalMarks: number; grade: st
 
   // Grade calculation based on totalMarks
   let grade;
-  if (totalMarks >= 90) grade = 'A';
-  else if (totalMarks >= 80) grade = 'B';
-  else if (totalMarks >= 70) grade = 'C';
-  else if (totalMarks >= 60) grade = 'D';
+  if (totalMarks >= 80) grade = 'A+';
+  else if (totalMarks >= 75) grade = 'A';
+  else if (totalMarks >= 70) grade = 'A-';
+  else if (totalMarks >= 65) grade = 'B+';
+  else if (totalMarks >= 60) grade = 'B';
+  else if (totalMarks >= 55) grade = 'B-';
+  else if (totalMarks >= 50) grade = 'C+';
+  else if (totalMarks >= 45) grade = 'C';
   else grade = 'F';
 
   return { totalMarks, grade };
