@@ -83,10 +83,12 @@ const ResultsTable: React.FC = () => {
         studentId: studentId,
         classTests: [...editedMarks.classTests],
         presentations: [...editedMarks.presentations],
-        classPerformance: editedMarks.classPerformance,
-        midterm: editedMarks.midterm,
+        attendance: editedMarks.attendance,
+        assignment: editedMarks.assignment,
+        quiz: editedMarks.quiz,
         finalExam: editedMarks.finalExam
       };
+      
       
       setMarksData([...marksData, newMark]);
     }
