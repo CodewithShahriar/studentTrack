@@ -120,7 +120,7 @@ const StudentDetail: React.FC = () => {
         
         <Card>
           <CardHeader className="pb-2">
-            <CardTitle className="text-sm font-medium">GPA</CardTitle>
+            <CardTitle className="text-sm font-medium">CGPA</CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-xl font-semibold">{overallStats.gpa.toFixed(2)}</p>

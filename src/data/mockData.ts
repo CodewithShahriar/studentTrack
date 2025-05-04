@@ -161,7 +161,7 @@ export const marks: Mark[] = [
     classTests: [7, 8, 9],
     presentations: [20, 17],
     classPerformance: 10,
-    midterm: 25,
+    midterm: 15,
     finalExam: 38
   },
   {
@@ -170,7 +170,7 @@ export const marks: Mark[] = [
     classTests: [9, 10, 7],
     presentations: [15, 18],
     classPerformance: 9,
-    midterm: 20,
+    midterm: 10,
     finalExam: 50
   },
   {
@@ -179,7 +179,7 @@ export const marks: Mark[] = [
     classTests: [9, 8, 9],
     presentations: [15, 20],
     classPerformance: 7,
-    midterm: 22,
+    midterm: 12,
     finalExam: 49
   },
   {
@@ -188,7 +188,7 @@ export const marks: Mark[] = [
     classTests: [7, 7, 10],
     presentations: [15, 16],
     classPerformance: 8,
-    midterm: 22,
+    midterm: 12,
     finalExam: 44
   },
   {
@@ -197,7 +197,7 @@ export const marks: Mark[] = [
     classTests: [9, 8, 7],
     presentations: [16, 17],
     classPerformance: 8,
-    midterm: 25,
+    midterm: 15,
     finalExam: 42
   },
   {
@@ -206,7 +206,7 @@ export const marks: Mark[] = [
     classTests: [6, 9, 10],
     presentations: [20, 20],
     classPerformance: 10,
-    midterm: 21,
+    midterm: 11,
     finalExam: 48
   },
   {
@@ -215,7 +215,7 @@ export const marks: Mark[] = [
     classTests: [7, 9, 9],
     presentations: [17, 19],
     classPerformance: 9,
-    midterm: 22,
+    midterm: 12,
     finalExam: 46
   },
   {
@@ -224,7 +224,7 @@ export const marks: Mark[] = [
     classTests: [6, 8, 8],
     presentations: [20, 16],
     classPerformance: 8,
-    midterm: 24,
+    midterm: 14,
     finalExam: 44
   },
   {
@@ -233,7 +233,7 @@ export const marks: Mark[] = [
     classTests: [10, 7, 7],
     presentations: [19, 19],
     classPerformance: 9,
-    midterm: 25,
+    midterm: 15,
     finalExam: 47
   },
   {
@@ -242,7 +242,7 @@ export const marks: Mark[] = [
     classTests: [6, 8, 8],
     presentations: [14, 14],
     classPerformance: 9,
-    midterm: 24,
+    midterm: 14,
     finalExam: 38
   },
   {
@@ -251,7 +251,7 @@ export const marks: Mark[] = [
     classTests: [6, 6, 6],
     presentations: [14, 19],
     classPerformance: 8,
-    midterm: 22,
+    midterm: 2,
     finalExam: 36
   },
   {
@@ -260,7 +260,7 @@ export const marks: Mark[] = [
     classTests: [9, 10, 9],
     presentations: [18, 14],
     classPerformance: 8,
-    midterm: 23,
+    midterm: 3,
     finalExam: 47
   },
   {
@@ -269,7 +269,7 @@ export const marks: Mark[] = [
     classTests: [8, 9, 6],
     presentations: [18, 14],
     classPerformance: 7,
-    midterm: 21,
+    midterm: 11,
     finalExam: 48
   },
   {
@@ -278,7 +278,7 @@ export const marks: Mark[] = [
     classTests: [6, 6, 6],
     presentations: [20, 17],
     classPerformance: 10,
-    midterm: 25,
+    midterm: 5,
     finalExam: 35
   },
   {
@@ -287,7 +287,7 @@ export const marks: Mark[] = [
     classTests: [10, 10, 9],
     presentations: [19, 15],
     classPerformance: 9,
-    midterm: 23,
+    midterm: 3,
     finalExam: 40
   },
   {
@@ -296,7 +296,7 @@ export const marks: Mark[] = [
     classTests: [10, 7, 8],
     presentations: [20, 15],
     classPerformance: 10,
-    midterm: 24,
+    midterm: 4,
     finalExam: 40
   },
   {
@@ -305,7 +305,7 @@ export const marks: Mark[] = [
     classTests: [9, 10, 9],
     presentations: [17, 17],
     classPerformance: 7,
-    midterm: 21,
+    midterm: 1,
     finalExam: 36
   },
   {
@@ -314,7 +314,7 @@ export const marks: Mark[] = [
     classTests: [9, 9, 9],
     presentations: [18, 20],
     classPerformance: 8,
-    midterm: 20,
+    midterm: 0,
     finalExam: 43
   },
   {
@@ -323,7 +323,7 @@ export const marks: Mark[] = [
     classTests: [9, 9, 6],
     presentations: [15, 20],
     classPerformance: 9,
-    midterm: 24,
+    midterm: 4,
     finalExam: 35
   },
   {
@@ -332,7 +332,7 @@ export const marks: Mark[] = [
     classTests: [9, 7, 6],
     presentations: [16, 15],
     classPerformance: 8,
-    midterm: 24,
+    midterm: 4,
     finalExam: 35
   },
   {
@@ -341,7 +341,7 @@ export const marks: Mark[] = [
     classTests: [7, 6, 6],
     presentations: [17, 20],
     classPerformance: 7,
-    midterm: 25,
+    midterm: 15,
     finalExam: 37
   },
   {
@@ -350,7 +350,7 @@ export const marks: Mark[] = [
     classTests: [10, 6, 6],
     presentations: [18, 15],
     classPerformance: 10,
-    midterm: 24,
+    midterm: 14,
     finalExam: 43
   },
   {
@@ -359,7 +359,7 @@ export const marks: Mark[] = [
     classTests: [6, 9, 10],
     presentations: [15, 18],
     classPerformance: 7,
-    midterm: 21,
+    midterm: 11,
     finalExam: 44
   },
   {
@@ -368,7 +368,7 @@ export const marks: Mark[] = [
     classTests: [10, 9, 8],
     presentations: [14, 18],
     classPerformance: 7,
-    midterm: 23,
+    midterm: 13,
     finalExam: 45
   },
   {
@@ -377,7 +377,7 @@ export const marks: Mark[] = [
     classTests: [10, 6, 10],
     presentations: [17, 15],
     classPerformance: 10,
-    midterm: 22,
+    midterm: 12,
     finalExam: 44
   }
 ];
@@ -413,14 +413,10 @@ export const calculateTotalGrade = (mark: Mark): { totalMarks: number; grade: st
 
   // Grade calculation based on totalMarks
   let grade;
-  if (totalMarks >= 80) grade = 'A+';
-  else if (totalMarks >= 75) grade = 'A';
-  else if (totalMarks >= 70) grade = 'A-';
-  else if (totalMarks >= 65) grade = 'B+';
-  else if (totalMarks >= 60) grade = 'B';
-  else if (totalMarks >= 55) grade = 'B-';
-  else if (totalMarks >= 50) grade = 'C+';
-  else if (totalMarks >= 45) grade = 'C';
+  if (totalMarks >= 90) grade = 'A';
+  else if (totalMarks >= 80) grade = 'B';
+  else if (totalMarks >= 70) grade = 'C';
+  else if (totalMarks >= 60) grade = 'D';
   else grade = 'F';
 
   return { totalMarks, grade };
