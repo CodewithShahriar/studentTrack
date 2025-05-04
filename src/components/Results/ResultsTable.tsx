@@ -115,11 +115,11 @@ const ResultsTable: React.FC = () => {
             <TableHeader>
               <TableRow>
                 <TableHead>Student</TableHead>
-                <TableHead className="text-center">Tests (10%)</TableHead>
-                <TableHead className="text-center">Presentations (10%)</TableHead>
-                <TableHead className="text-center">Class Performance (10%)</TableHead>
-                <TableHead className="text-center">Midterm (20%)</TableHead>
-                <TableHead className="text-center">Final Exam (40%)</TableHead>
+                <TableHead className="text-center">Tests</TableHead>
+                <TableHead className="text-center">Presentations & Assignment</TableHead>
+                <TableHead className="text-center">Quiz</TableHead>
+                <TableHead className="text-center">Midterm</TableHead>
+                <TableHead className="text-center">Final Exam</TableHead>
                 <TableHead className="text-center">Total</TableHead>
                 <TableHead className="text-right">Actions</TableHead>
               </TableRow>
