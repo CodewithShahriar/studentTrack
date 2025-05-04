@@ -92,7 +92,7 @@ const StudentDashboard: React.FC = () => {
               <div className="bg-white p-4 rounded-md shadow-sm">
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="font-medium text-sm text-muted-foreground mb-1">GPA</h3>
+                    <h3 className="font-medium text-sm text-muted-foreground mb-1">CGPA</h3>
                     <p className="font-semibold text-2xl">{gpa.toFixed(2)}</p>
                   </div>
                   <Award className="text-primary h-8 w-8" />
