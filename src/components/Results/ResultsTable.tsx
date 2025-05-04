@@ -119,16 +119,18 @@ const ResultsTable: React.FC = () => {
         <CardContent className="overflow-x-auto">
           <Table>
             <TableHeader>
-              <TableRow>
-                <TableHead>Student</TableHead>
-                <TableHead className="text-center">Tests (10%)</TableHead>
-                <TableHead className="text-center">Presentations (10%)</TableHead>
-                <TableHead className="text-center">Class Performance (10%)</TableHead>
-                <TableHead className="text-center">Midterm (20%)</TableHead>
-                <TableHead className="text-center">Final Exam (40%)</TableHead>
-                <TableHead className="text-center">Total</TableHead>
-                <TableHead className="text-right">Actions</TableHead>
-              </TableRow>
+            <TableRow>
+  <TableHead>Student</TableHead>
+  <TableHead className="text-center">Class Tests (10%)</TableHead>
+  <TableHead className="text-center">Presentations (10%)</TableHead>
+  <TableHead className="text-center">Attendance (10%)</TableHead>
+  <TableHead className="text-center">Assignment (10%)</TableHead>
+  <TableHead className="text-center">Quiz (10%)</TableHead>
+  <TableHead className="text-center">Final Exam (40%)</TableHead>
+  <TableHead className="text-center">Total</TableHead>
+  <TableHead className="text-right">Actions</TableHead>
+</TableRow>
+
             </TableHeader>
             <TableBody>
               {courseMarks.map((mark) => {
